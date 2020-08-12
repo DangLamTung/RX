@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name stm32_nrf24-rescue)(type Legacy)(uri D:/github/TX_drone/stm32_nrf24/stm32_nrf24-rescue.lib)(options "")(descr ""))
+)
