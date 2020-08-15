@@ -1466,4 +1466,28 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 4600 6450 
 	1    4600 6450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2550 6350 2550 6150
+$Comp
+L power:+5V #PWR?
+U 1 1 5F389BC7
+P 2550 6150
+F 0 "#PWR?" H 2550 6000 50  0001 C CNN
+F 1 "+5V" H 2565 6323 50  0000 C CNN
+F 2 "" H 2550 6150 50  0001 C CNN
+F 3 "" H 2550 6150 50  0001 C CNN
+	1    2550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F39918F
+P 2550 7150
+F 0 "#PWR?" H 2550 6900 50  0001 C CNN
+F 1 "GND" H 2555 6977 50  0000 C CNN
+F 2 "" H 2550 7150 50  0001 C CNN
+F 3 "" H 2550 7150 50  0001 C CNN
+	1    2550 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
