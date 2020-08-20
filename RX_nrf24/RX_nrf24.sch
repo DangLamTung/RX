@@ -1554,4 +1554,23 @@ F 3 "" H 1650 7050 50  0001 C CNN
 	1    1650 7050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3FC447
+P 4900 1000
+F 0 "C?" H 5015 1046 50  0000 L CNN
+F 1 "C" H 5015 955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4938 850 50  0001 C CNN
+F 3 "~" H 4900 1000 50  0001 C CNN
+	1    4900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 850  4900 850 
+Connection ~ 4500 850 
+Wire Wire Line
+	4900 1150 4900 1200
+Wire Wire Line
+	4900 1200 4500 1200
+Connection ~ 4500 1200
 $EndSCHEMATC
