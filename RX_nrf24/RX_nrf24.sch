@@ -1573,4 +1573,63 @@ Wire Wire Line
 Wire Wire Line
 	4900 1200 4500 1200
 Connection ~ 4500 1200
+$Comp
+L RF:NRF24L01_Breakout U?
+U 1 1 5F40A6BF
+P 7350 5200
+F 0 "U?" H 7730 5246 50  0000 L CNN
+F 1 "NRF24L01_Breakout" H 7730 5155 50  0000 L CNN
+F 2 "RF_Module:nRF24L01_Breakout" H 7500 5800 50  0001 L CIN
+F 3 "http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf" H 7350 5100 50  0001 C CNN
+	1    7350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 4600 7350 4350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F40BF56
+P 7350 4350
+F 0 "#PWR?" H 7350 4200 50  0001 C CNN
+F 1 "+3.3V" H 7365 4523 50  0000 C CNN
+F 2 "" H 7350 4350 50  0001 C CNN
+F 3 "" H 7350 4350 50  0001 C CNN
+	1    7350 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 5400 0    50   Input ~ 0
+CE
+Text GLabel 6700 5200 0    50   Input ~ 0
+CSN
+Text GLabel 6700 5100 0    50   Input ~ 0
+SCK
+Text GLabel 6700 5000 0    50   Input ~ 0
+MISO
+Text GLabel 6700 4900 0    50   Input ~ 0
+MOSI
+Wire Wire Line
+	6700 5400 6850 5400
+Wire Wire Line
+	6700 5200 6850 5200
+Wire Wire Line
+	6850 5100 6700 5100
+Wire Wire Line
+	6700 5000 6850 5000
+Wire Wire Line
+	6700 4900 6850 4900
+Text GLabel 6700 5500 0    50   Input ~ 0
+IRQ
+Wire Wire Line
+	6700 5500 6850 5500
+$Comp
+L power:GND #PWR?
+U 1 1 5F451534
+P 7350 5800
+F 0 "#PWR?" H 7350 5550 50  0001 C CNN
+F 1 "GND" H 7355 5627 50  0000 C CNN
+F 2 "" H 7350 5800 50  0001 C CNN
+F 3 "" H 7350 5800 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
